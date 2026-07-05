@@ -1,0 +1,48 @@
+@media(max-width:992px){
+    /* NAVIGATION */
+    .sub-nav{
+        flex-basis:100%;/*=width:100%*/
+    }
+
+    .sub-nav a{
+        flex-basis:50%;
+        text-align: center;
+        border-bottom:3px solid #F2F2F2;
+    }
+
+    .sub-nav a:hover{
+        border-bottom-color:var(--blue);
+        border-top-color:transparent;
+    }
+
+    /* FORMULAIRE */
+    .text-submit{
+        display:none;
+    }
+    .magni-button{
+        display:inline;
+    }
+
+    /*SECTION 1 - HEBERGEMENTS ET POPULAIRES*/
+    .apartments-list{
+        flex-direction: column-reverse;
+    }
+    
+    .popular-apartments-list{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;   
+    }
+
+    .city-apartments-list .apartment-card{
+        width:100%;
+    }
+
+    /* FOOTER */
+    .legal-mentions div{
+        width:100%;
+    }
+    .legal-mentions{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,125 @@
+@media(max-width:768px){
+    /* NAV */
+    .sub-nav{
+        flex-basis:100%;/*=width:100%*/
+    }
+
+    .sub-nav a{
+        flex-basis:50%;
+        text-align: center;
+        border-bottom:3px solid #F2F2F2;
+    }
+
+    .sub-nav a:hover{
+        border-bottom-color:var(--blue);
+        border-top-color:transparent;
+    }
+
+    #logo{
+        margin:auto;
+        padding-top:16px;
+    }
+
+
+    /* FORM */
+    .wrapper{
+        padding:0px;
+    }
+    .wrapper h1{
+        font-size:30px;
+    }
+    .wrapper h2{
+        width:100%;
+    }
+    .header-section p, .infos p{
+        font-size:20px;
+    }
+    .header-section, .search-form, .filters, .infos{
+        padding:0 4%;
+    }
+
+    .text-submit{
+        display:none;
+    }
+    .magni-button{
+        display:inline;
+    }
+    .search-form button{
+ 
+        padding:0px;
+        margin-left:-10px;
+        border-radius: 16px;
+    }
+
+    .search-form i{
+        padding:20px;
+
+    }
+
+    
+    .search-form input{
+        padding:0 4%;  
+        font-size: 20px;
+    }
+    
+    .search-form button, .fa-location-dot{
+        font-size: 20px;
+   
+    }
+
+    /*SECTION 1 - HOUSING & POPULAR*/
+    .apartments-list{
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+
+    .apartments-list .city{
+        background-color: white;
+    }
+    .apartments-list .popular{
+        border-radius:0px;
+        
+    }
+    
+    .popular-apartments-list{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;   
+    }
+
+    .city-apartments-list .apartment-card{
+        flex-direction:column;
+        flex-wrap:wrap;
+        width:100%;
+    }
+
+
+    /* ACTIVITY */
+    .card-big img,.card-medium img,.card-small img,.card-half img{
+        width:100%;
+        height:200px;
+    }
+
+    .activity-cards >div{
+        height:100%;
+    }
+
+    .activity{
+        padding-left:16px;
+    }
+    .activity-cards{
+        flex-direction:column;
+    }
+
+    .activity-cards >div{
+        width:100%;   
+    }
+
+    /* FOOTER */
+    .legal-mentions div{
+        width:100%;
+    }
+    .legal-mentions{
+        flex-wrap: wrap;
+    }
+}
